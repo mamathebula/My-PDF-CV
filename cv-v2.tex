@@ -1,0 +1,135 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.55in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontenc}
+\usepackage{parskip}
+\usepackage{xcolor}
+
+% Colors
+\definecolor{headingblue}{HTML}{1A5276}
+\definecolor{rulecolor}{HTML}{2C3E50}
+\definecolor{linkblue}{HTML}{2471A3}
+\definecolor{subtlegray}{HTML}{555555}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{headingblue}}{}{0em}{}[\color{rulecolor}\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\pagestyle{empty}
+\setlist[itemize]{nosep, left=0pt, labelsep=5pt, itemsep=1pt}
+
+\begin{document}
+
+% Header
+\begin{center}
+{\LARGE\bfseries Mandla Mathebula}\\[3pt]
++27 79 774 9367 \enspace|\enspace mathebulam000@gmail.com \enspace|\enspace Cape Town, South Africa\\[2pt]
+\href{https://linkedin.com/in/mandla-mathebula-4258a518a}{\color{linkblue}LinkedIn} \enspace|\enspace \href{https://github.com/mamathebula}{\color{linkblue}GitHub} \enspace|\enspace \href{https://applyza.co.za/resume_mandla/}{\color{linkblue}Portfolio}
+\end{center}
+
+% Professional Summary
+\section{Professional Summary}
+Cloud Support Engineer with 4+ years of experience delivering automation, reliability, and operational improvements across AWS and Azure environments. Promoted from L4 to L5 within 21 months at Amazon Web Services for driving high-impact automation initiatives and improving operational efficiency. Proven track record of reducing latency, improving SLA performance, and implementing scalable serverless solutions that drive cost savings and operational excellence.
+
+% Technical Skills
+\section{Technical Skills}
+\textbf{Cloud Platforms:} AWS (EC2, Lambda, S3, API Gateway, CloudFormation, CloudWatch, IAM, SNS, EventBridge, VPC, EBS), Microsoft Azure\\
+\textbf{Infrastructure \& DevOps:} Infrastructure as Code (CloudFormation), CI/CD Pipelines, GitHub Actions, Linux, Serverless Architecture, Deployment Automation\\
+\textbf{Programming \& Automation:} Python, JavaScript, Bash, REST APIs, Automation Scripting\\
+\textbf{Monitoring \& Operations:} CloudWatch, Grafana, Alerta, Observability, Incident Management, Root Cause Analysis, SLA Management\\
+\textbf{Security \& Compliance:} IAM Policies, SCPs, Identity and Access Management, Cloud Security Best Practices\\
+\textbf{Architecture \& Methodologies:} Serverless Architecture, Scalable Systems Design, Cloud Lifecycle Management, Agile, UAT
+
+% Professional Experience
+\section{Professional Experience}
+
+\textbf{Senior Cloud Support Engineer} \hfill \textbf{June 2024 -- Present}\\
+\textit{Amazon Web Services}
+\begin{itemize}
+  \item Served as subject matter expert for AWS Marketplace products including Single AMI and CloudFormation-based deployments.
+  \item Led user acceptance testing sessions and delivered operational reporting used by leadership to improve team efficiency.
+  \item Engineered automation for architecture diagram reviews using AI tooling, reducing processing time by 92\% (2 hours to under 10 minutes) and improving SLA performance by 75\%.
+  \item Designed a JavaScript automation framework integrating 40+ internal systems to streamline operational workflows.
+  \item Built a Python serverless automation solution using AWS Lambda, SNS, and CloudWatch to manage infrastructure lifecycle and enforce tagging policies.
+  \item Mentored engineers to operational independence and contributed to cross-team knowledge sharing initiatives.
+  \item Led a hackathon-winning GenAI project that generated automated case summaries within Salesforce, saving 5--10 minutes per case and delivering 8--16 hours of team productivity gains daily.
+  \item Contributed to the launch of AWS License Manager enhancements enabling Red Hat subscription switching without instance redeployment across regions.
+\end{itemize}
+
+\textbf{Cloud Engineer} \hfill \textbf{June 2023 -- May 2024}\\
+\textit{Momentum Metropolitan Holdings}
+\begin{itemize}
+  \item Provided technical support for AWS and Azure environments across 150+ cloud accounts.
+  \item Served as primary technical contact for cloud infrastructure troubleshooting and operational incidents.
+  \item Managed escalations with vendor support teams including AWS and Microsoft.
+  \item Monitored cloud infrastructure for performance, availability, and cost optimization opportunities.
+  \item Implemented cloud security and compliance configurations aligned with industry best practices.
+  \item Developed automation solutions to improve operational efficiency and reduce manual workload.
+  \item Collaborated with DevOps engineers, Solutions Architects, and account managers to improve service delivery.
+\end{itemize}
+
+
+
+\textbf{Branch VIP Support Engineer} \hfill \textbf{June 2021 -- May 2023}\\
+\textit{Momentum Metropolitan Holdings}
+\begin{itemize}
+  \item Delivered high-priority IT support for executive and VIP users across enterprise environments.
+  \item Performed root cause analysis, incident management, and service request fulfillment.
+  \item Communicated critical system updates and escalations to senior management.
+  \item Provided remote standby support and ensured minimal operational disruption during incidents.
+\end{itemize}
+
+\textbf{IT Support Engineer (Internship)} \hfill \textbf{November 2020 -- May 2021}\\
+\textit{Momentum Metropolitan Holdings}
+\begin{itemize}
+  \item Provided on-site and remote technical support for hardware, software, and network issues.
+  \item Assisted with enterprise system migrations including workstation imaging, VPN configuration, and productivity tool deployments.
+  \item Supported large-scale migration projects across multiple branches including workstation setup and collaboration tool configuration.
+\end{itemize}
+
+% Projects
+\section{Projects}
+
+\href{https://github.com/mamathebula/ebs-volume-migration}{\color{linkblue}\textbf{EBS Volume Migration Tool (gp2 $\rightarrow$ gp3)}} \enspace|\enspace \textit{Bash, AWS CLI, EC2 API}\\
+Automated migration of 200+ EBS volumes across regions. Achieved 20\% cost reduction and \$4,000+ annual savings with zero downtime.
+
+\href{https://github.com/mamathebula/security-group-monitor}{\color{linkblue}\textbf{Security Group Monitor}} \enspace|\enspace \textit{Python, Lambda, CloudFormation, EventBridge, SNS}\\
+Serverless security monitoring detecting open security group rules in real time. Automatic rule revocation with alerting and tag-based whitelisting. Near-instant compliance enforcement.
+
+\href{https://github.com/mamathebula/lambda-runtime-updater}{\color{linkblue}\textbf{Lambda Runtime Bulk Updater}} \enspace|\enspace \textit{Bash, AWS CLI, Lambda API}\\
+Automated runtime updates for 100+ Lambda functions simultaneously. Reduced full-day manual operation to under 5 minutes using parallel processing.
+
+\href{https://github.com/mamathebula/aws-resource-cleanup}{\color{linkblue}\textbf{AWS Resource Cleanup Stack}} \enspace|\enspace \textit{CloudFormation, Lambda, EventBridge, SNS}\\
+Automated lifecycle management for unused AWS resources. Cleaned up 500+ unused volumes and snapshots, saving \$1,500+ annually.
+
+\href{https://applyza.co.za/resume_mandla/}{\color{linkblue}\textbf{Professional Portfolio \& CI/CD Pipeline}} \enspace|\enspace \textit{React, GitHub Actions, Cloudflare Pages}\\
+Developer portfolio with automated CI/CD. GitHub push-triggered builds and production deployment through global edge network.
+
+% Education
+\section{Education}
+\textbf{Tshwane University of Technology} \hfill \textbf{Completed: 2022}\\
+National Diploma in Information Technology --- Intelligent Industrial Systems
+
+% Certifications
+\section{Certifications}
+\begin{itemize}
+  \item AWS Certified Cloud Practitioner (2023)
+  \item Microsoft Cybersecurity Architect (SC-100)
+  \item Microsoft Security, Compliance, and Identity Fundamentals (SC-900)
+  \item Microsoft 365 Fundamentals (MS-900)
+  \item Apple macOS Support Essentials --- Monterey
+\end{itemize}
+
+% Key Achievements
+\section{Key Achievements}
+\begin{itemize}
+  \item Promoted from L4 to L5 within 21 months at Amazon Web Services.
+  \item Won Q2 2025 GenAI Hackathon for developing an AI case summarization tool saving up to 16 hours daily team-wide.
+  \item Reduced architecture review SLA from 48 hours to 12 hours through automation.
+  \item Eliminated a 550+ case backlog in 3 days through automation and workflow optimization.
+  \item Accelerated AWS Marketplace product listing time from 14 days to under 1 hour.
+\end{itemize}
+
+\end{document}
